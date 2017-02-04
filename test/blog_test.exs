@@ -1,6 +1,6 @@
 defmodule BlogTest do
   use ExUnit.Case
-  doctest Blog
+#  doctest Blog
 
   test "the truth" do
     assert 1 + 1 == 2

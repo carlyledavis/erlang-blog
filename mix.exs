@@ -11,11 +11,12 @@ defmodule Blog.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :cowboy, :poison, :plug]]
+    [applications: [:logger, :earmark, :cowboy, :poison, :plug]]
   end
 
   defp deps do
     [{:cowboy, "~> 1.0.0"},
+    {:earmark, "~> 1.1.0"},
     {:plug, "~> 1.0"},
     {:poison, "~> 3.0"}]
   end
